@@ -10,12 +10,21 @@ header {
     background-color: #222;
     padding: 20px;
     text-align: center;
+    position: relative; /* Add this line */
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    max-height: 100px; /* Adjust the height as needed */
 }
 
 header h1 {
     margin: 0;
     font-size: 36px;
+    margin-top: 10px; /* Adjust the margin as needed */
 }
+
 
 main {
     max-width: 800px;
