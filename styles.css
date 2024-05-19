@@ -18,6 +18,7 @@
 
 .center-content {
     flex:2;
+    max-width: 800px;
 }
 
 body {
