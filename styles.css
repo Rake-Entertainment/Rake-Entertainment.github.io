@@ -33,7 +33,7 @@ header {
     /*background-color: #222;*/
     padding: 20px;
     text-align: center;
-    position: relative; /* Add this line */
+    position: relative;
 }
 
 header img {
