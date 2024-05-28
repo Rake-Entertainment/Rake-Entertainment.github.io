@@ -233,6 +233,7 @@ section#intro {
 
 .founders-member img {
     max-width: 500px;
+    padding: auto;
 }
 
 .other-members {
