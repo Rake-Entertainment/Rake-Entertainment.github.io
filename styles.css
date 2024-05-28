@@ -231,6 +231,10 @@ section#intro {
     padding: 10px;
 }
 
+.founders-member img {
+    max-width: 500px;
+}
+
 .other-members {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
