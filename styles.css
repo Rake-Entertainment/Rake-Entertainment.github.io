@@ -430,4 +430,20 @@ footer {
     #intro h1 {
         font-size: 45px;
     }
+
+    .other-members {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .other-members img {
+        max-width: 100%;
+    }
+
+    .founders-member img {
+        max-width: 80%;
+    }
+
+    #about-game div {
+        margin-left: 0px;
+    }
 }
