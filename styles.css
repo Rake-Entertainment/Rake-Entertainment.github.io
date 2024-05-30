@@ -392,6 +392,15 @@ footer {
     }
 }
 
+@media (max-width: 1600px) {
+    .other-members {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .other-members img {
+        max-width: 80%;
+    }
+}
+
 /* Responsive Design */
 @media (max-width: 810px) {
     header {
@@ -432,7 +441,7 @@ footer {
     }
 
     .other-members {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .other-members img {
