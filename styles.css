@@ -158,7 +158,7 @@ section#intro {
     width: 100px; /* Adjust width of right GIF */
 }
 
-#about-game {
+#games {
     align-self: left;
     text-align: left;
     padding-left: 20px;
@@ -166,12 +166,12 @@ section#intro {
     background: rgba(23,23,23,1);
 }
 
-#about-game div {
+#games div {
     width: 50%;
     margin-left: 150px;
 }
 
-#about-game h1 {
+#games h1 {
     padding-bottom: 15px;
     text-align: left;
     font-family: "Hydrophilia Iced", sans-serif;
@@ -181,7 +181,7 @@ section#intro {
     color: rgba(255,255,255,1);
 }
 
-#about-game p{
+#games p{
     margin-bottom: 10px;
 }
 
@@ -447,7 +447,7 @@ footer {
         max-width: 80%;
     }
 
-    #about-game div {
+    #games div {
         margin-left: 0px;
     }
 }
