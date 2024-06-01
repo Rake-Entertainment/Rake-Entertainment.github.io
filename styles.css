@@ -210,37 +210,25 @@ section#intro {
     color: rgba(112,112,112,1);
 }
 
+#who-we-are h2 {
+    font-size: 50px;
+}
+
 .team-members {
     display: flex;
     flex-direction: column; /* Display flex items in a column */
     align-items: center; /* Center align items horizontally */
 }
 
-.founders {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%; /* Take full width */
-    text-align: center;
-    align-items: center;
-    margin: 0px 30px 30px 30px;
-}
-
-.founders-member {
-    margin: 10px 20px 20px 20px;
-    padding: 10px;
-}
-
-.founders-member img {
-    max-width: 500px;
-    padding: auto;
-}
-
 .other-members {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     width: 60%; /* Take full width */
+}
+
+.other-members div:nth-child(10) {
+    grid-column: 2;
 }
 
 .team-member {
@@ -250,7 +238,7 @@ section#intro {
 }
 
 .team-member img {
-    max-width: 80%;
+    max-width: 100%;
 }
 
 .team-member h3 {
@@ -399,10 +387,17 @@ footer {
     .other-members img {
         max-width: 80%;
     }
+
+    #who-we-are h2 {
+        font-size: 40px;
+    }
 }
 
 /* Responsive Design */
 @media (max-width: 810px) {
+    #who-we-are h2 {
+        font-size: 30px;
+    }
     header {
         padding: 0px; /* Adjusted padding */
         margin-bottom: 10px;
