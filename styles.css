@@ -186,12 +186,13 @@ section#intro {
 }
 
 #intro h1 {
-    margin-bottom: 20px; /* Add margin bottom to make it shorter */
+    margin-bottom: 20px;
     font-style: normal;
     font-weight: normal;
-    font-size: 90px;
-    color: rgba(255,255,255,1);
-}
+    font-size: 4em; /* Changed from 90px for consistency with original styling */
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 3px 2px 2px rgb(251, 12, 84), 0px -1px 3px rgba(12, 79, 251, 0.5), -2px 0px 2px rgb(12, 215, 251);
+  }
 
 #intro p {
     font-size: 1em; /* Adjust the font size */
