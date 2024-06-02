@@ -374,6 +374,12 @@ footer {
     cursor: pointer;
 }
 
+@media (min-width: 1400px) {
+    .other-members {
+        width: 80%;
+    }
+}
+
 /* For screens with a viewport width greater than or equal to 1200px */
 @media (min-width: 1200px) {
     #game-promo-display img {
@@ -381,9 +387,10 @@ footer {
     }
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1400px) {
     .other-members {
         grid-template-columns: repeat(2, 1fr);
+        width: 90%;
     }
     .other-members img {
         max-width: 80%;
@@ -434,10 +441,15 @@ footer {
 
     #intro h1 {
         font-size: 45px;
+        text-align: center;
+    }
+
+    #intro {
+        justify-content: center;
     }
 
     .other-members {
-        grid-template-columns: repeat(1, 1fr);
+        display: block;
     }
 
     .other-members img {
