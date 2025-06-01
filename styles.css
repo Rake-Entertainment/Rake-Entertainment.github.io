@@ -213,12 +213,58 @@ section#intro {
 
 #who-we-are h2 {
     font-size: 50px;
+    margin-bottom: 30px;
+}
+
+/* Team description styling */
+.team-description {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    padding: 0 20px;
+}
+
+.team-description p {
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: center;
 }
 
 .team-members {
     display: flex;
     flex-direction: column; /* Display flex items in a column */
     align-items: center; /* Center align items horizontally */
+}
+
+/* Founders section styling */
+.founders-section {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 50px;
+}
+
+.team-member.founder {
+    text-align: center;
+    padding: 20px;
+}
+
+.team-member.founder img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.team-member.founder h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: rgba(80,80,80,1);
+}
+
+.team-member.founder p {
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .other-members {
@@ -228,7 +274,7 @@ section#intro {
     width: 60%; /* Take full width */
 }
 
-.other-members div:nth-child(10) {
+.other-members div:nth-child(8) {
     grid-column: 2;
 }
 
@@ -239,7 +285,10 @@ section#intro {
 }
 
 .team-member img {
+    width: 400px;
+    height: 400px;
     max-width: 100%;
+    border-radius: 8px;
 }
 
 .team-member h3 {
@@ -284,7 +333,6 @@ section#contact form button:hover {
     background-color: #fa5478; /* Change button background color on hover */
 }
 
-
 .scroll-btn {
     position: absolute;
     top: 50%;
@@ -322,7 +370,6 @@ section#contact form button:hover {
     gap: 10px; /* Adjust the gap between images */
     justify-content: center; /* Center the images horizontally */
 }
-
 
 .gallery-container img {
     cursor: pointer;
@@ -407,36 +454,33 @@ footer {
         font-size: 30px;
     }
     header {
-        padding: 0px; /* Adjusted padding */
+        padding: 0px;
         margin-bottom: 10px;
     }
     header nav {
-        height: auto; /* Adjusted height */
+        height: auto;
         position: relative;
     }
     header ul {
-        flex-direction: column; /* Stack items vertically */
-        margin-top: 20px; /* Adjusted margin */
+        flex-direction: column;
+        margin-top: 20px;
     }
     header ul li {
-        margin: 10px 0; /* Adjusted margin */
+        margin: 10px 0;
     }
     header .logo {
-        max-width: 150px; /* Reduced maximum width for smaller screens */
-        margin: 10px 0; /* Adjusted margin */
+        max-width: 150px;
+        margin: 10px 0;
     }
     body {
-        font-size: 14px; /* Reduced font size for body text on smaller screens */
+        font-size: 14px;
+        margin-top: 150px;
     }
     header ul li a {
-        font-size: 16px; /* Reduced font size for navigation links on smaller screens */
+        font-size: 16px;
     }
     #left-anim, #rigth-anim {
         display: none;
-    }
-
-    body {
-        margin-top: 150px;
     }
 
     #intro h1 {
@@ -448,19 +492,45 @@ footer {
         justify-content: center;
     }
 
+    .founders-section {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .team-member.founder img {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+    }
+
     .other-members {
-        display: block;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        width: 90%;
+        margin: 0 auto;
     }
 
-    .other-members img {
-        max-width: 100%;
+    .team-member {
+        width: 100%;
     }
 
-    .founders-member img {
-        max-width: 80%;
+    .team-member img {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        margin: 0 auto;
     }
 
     #games div {
         margin-left: 0px;
+    }
+
+    .team-description {
+        margin-bottom: 30px;
+    }
+
+    .team-description p {
+        font-size: 16px;
     }
 }
