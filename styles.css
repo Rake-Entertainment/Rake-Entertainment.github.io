@@ -497,10 +497,10 @@ footer {
         gap: 30px;
     }
 
-    .team-member.founder img {
+    .team-member .founder img {
         width: 250px;
         height: 250px;
-        object-fit: cover;
+        max-width: 100%;
     }
 
     .other-members {
